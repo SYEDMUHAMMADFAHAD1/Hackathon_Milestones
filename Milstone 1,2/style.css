@@ -1,0 +1,92 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Light neutral background */
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow with less spread */
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #333a56; /* Deep navy for contrast */
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #1f7a8c; /* Muted cyan for accents */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slight shadow to give the section more depth */
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #1f7a8c; /* Accent border color */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #1f7a8c; /* Accent color */
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #333a56; /* Text color - dark navy */
+    border-radius: 10px;
+    background-color: #eaeff2; /* Light background */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); /* Softer and more subtle shadow */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 10;
+    margin: 10px 0;
+    color: #555;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow to lift the section */
+}
+
+button {
+    font-family: Arial, sans-serif;
+    background-color: #1f7a8c; /* Accent color */
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lighter button shadow */
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #155960; /* Darker shade for hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
